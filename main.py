@@ -80,7 +80,7 @@ def start_buttons(bot, update):
    pyrogram.types.InlineKeyboardButton("Updates", url="t.me/Movies_Mafia_Updates"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
-   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.@Movies_Mafia_Movies_bot}?startchannel=true")
+   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.Movies_Mafia_Movies_bot}?startchannel=true")
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
